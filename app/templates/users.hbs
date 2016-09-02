@@ -1,0 +1,10 @@
+<h3>Users</h3>
+<ul>
+{{#each model as |user|}}
+	<li>
+		{{#link-to 'albums' user.id }}
+			{{ user.name }} ( {{ user.email }} )
+		{{/link-to}}
+	</li>
+{{/each}}
+</ul>

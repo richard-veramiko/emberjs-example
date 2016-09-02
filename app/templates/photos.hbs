@@ -1,0 +1,9 @@
+<h3>Photos</h3>
+<ul class='photos-list'>
+{{#each model as |photo|}}
+	<li>
+		<p><img src='{{ photo.thumbnailUrl }}'></p>
+		{{ photo.title }}
+	</li>
+{{/each}}
+</ul>

@@ -1,0 +1,15 @@
+.photos-list {
+	list-style: none;
+	display: block;
+}
+
+.photos-list li {
+	display: inline-block;
+	width: 230px;
+	height: 270px;
+	overflow: hidden;
+	border: 1px solid #efefef;
+	text-align: center;
+	box-shadow: 1px 1px #ccc;
+	margin: 0px 10px 10px 0px;
+}
